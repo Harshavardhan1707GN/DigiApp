@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Transfer Money{% endblock %}
+
+{% block content %}
+<h2>Transfer Money</h2>
+<form method="post">
+    <label for="receiver">Receiver:</label>
+    <select id="receiver" name="receiver" required>
+        {% for email, user in users.items() %}
+            {% if email != current_user %}
+                <option value="{{ email }}">{{ user.first_name }} {{ user.last_name }} ({{ email }})</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" min="1" required>
+    <button type="submit">Transfer</button>
+</form>
+<a href="{{ url_for('dashboard') }}"><button>Back to Dashboard</button></a>
+{% endblock %}

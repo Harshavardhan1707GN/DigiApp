@@ -1,0 +1,44 @@
+{
+    "b@gmail.com": {
+        "first_name": "bharath",
+        "last_name": "BG",
+        "password": "321321",
+        "balance": 9399.0
+    },
+    "h@gmail.com": {
+        "first_name": "HARSHAVARDHAN",
+        "last_name": "GN",
+        "password": "123123",
+        "balance": 14069
+    },
+    "a@gmail.com": {
+        "first_name": "AMOGH",
+        "last_name": "GOWDA",
+        "password": "123123",
+        "balance": 6900
+    },
+    "chandan@gmail.com": {
+        "first_name": "chandu",
+        "last_name": "gowda",
+        "password": "Chandan@321",
+        "balance": 1
+    },
+    "kb@gmail.com": {
+        "first_name": "kaushik",
+        "last_name": "b",
+        "password": "121212",
+        "balance": 3508
+    },
+    "kc@gmail.com": {
+        "first_name": "keshava",
+        "last_name": "GC",
+        "password": "111222",
+        "balance": 9419
+    },
+    "su@gmail.com": {
+        "first_name": "sudarshan",
+        "last_name": "gowda",
+        "password": "123123",
+        "balance": 1143
+    }
+}
